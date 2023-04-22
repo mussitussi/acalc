@@ -1,9 +1,9 @@
 public class ACalculator : ICalculatorAsyncEnumerable
 {
-    private readonly O2P _o2p;
-    private readonly P2O _p2o;
+    private readonly ICalculatorAsync _o2p;
+    private readonly ICalculatorAsync _p2o;
 
-    public ACalculator(O2P o2p, P2O p2o)
+    public ACalculator(ICalculatorAsync o2p, ICalculatorAsync p2o)
     {
         _o2p = o2p;
         _p2o = p2o;
