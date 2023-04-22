@@ -1,0 +1,58 @@
+Hello, World!
+Run 1
+13:15:08.9426950: CalcInput(Pair { Type = Price, Value = 100 }, [])
+13:15:08.9701010: CalcResult { Pair = Pair { Type = Price, Value = 100 } }
+13:15:12.4774880: CalcResult { Pair = Pair { Type = OAS, Value = 0 } }
+13:15:12.4788980: CalcInput(Pair { Type = OAS, Value = 1.11 }, [CalcResult { Pair = Pair { Type = Price, Value = 102 } },CalcResult { Pair = Pair { Type = OAS, Value = 0.1 } }])
+13:15:12.4806950: CalcResult { Pair = Pair { Type = OAS, Value = 1.11 } }
+13:15:12.4809550: CalcResult { Pair = Pair { Type = DeltaOAS, Value = 1.01 } }
+13:15:15.9829730: CalcResult { Pair = Pair { Type = Price, Value = 101.11 } }
+13:15:15.9833580: CalcResult { Pair = Pair { Type = DeltaPrice, Value = -0.8900000000000006 } }
+13:15:15.9837430: CalcInput(Pair { Type = DeltaOAS, Value = 0.11 }, [CalcResult { Pair = Pair { Type = Price, Value = 102 } },CalcResult { Pair = Pair { Type = OAS, Value = 0.1 } }])
+13:15:15.9862070: CalcResult { Pair = Pair { Type = DeltaOAS, Value = 0.11 } }
+13:15:15.9862530: CalcResult { Pair = Pair { Type = OAS, Value = 0.21000000000000002 } }
+13:15:19.4902660: CalcResult { Pair = Pair { Type = Price, Value = 100.21 } }
+13:15:19.4903680: CalcResult { Pair = Pair { Type = DeltaPrice, Value = -1.7900000000000063 } }
+13:15:19.4907240: CalcInput(Pair { Type = Price, Value = 124.11 }, [CalcResult { Pair = Pair { Type = Price, Value = 102 } },CalcResult { Pair = Pair { Type = OAS, Value = 0.1 } }])
+13:15:19.4908150: CalcResult { Pair = Pair { Type = Price, Value = 124.11 } }
+13:15:19.4908430: CalcResult { Pair = Pair { Type = DeltaPrice, Value = 22.11 } }
+13:15:22.9965740: CalcResult { Pair = Pair { Type = OAS, Value = 24.11 } }
+13:15:22.9967270: CalcResult { Pair = Pair { Type = DeltaOAS, Value = 24.009999999999998 } }
+Run 2
+13:15:22.9968060: CalcInput(Pair { Type = Price, Value = 100 }, [])
+13:15:22.9968430: CalcResult { Pair = Pair { Type = Price, Value = 100 } }
+13:15:26.5025390: CalcResult { Pair = Pair { Type = OAS, Value = 0 } }
+13:15:26.5027380: CalcInput(Pair { Type = OAS, Value = 1.11 }, [CalcResult { Pair = Pair { Type = Price, Value = 102 } },CalcResult { Pair = Pair { Type = OAS, Value = 0.1 } }])
+13:15:26.5028660: CalcResult { Pair = Pair { Type = OAS, Value = 1.11 } }
+13:15:26.5029300: CalcResult { Pair = Pair { Type = DeltaOAS, Value = 1.01 } }
+13:15:30.0087710: CalcResult { Pair = Pair { Type = Price, Value = 101.11 } }
+13:15:30.0089120: CalcResult { Pair = Pair { Type = DeltaPrice, Value = -0.8900000000000006 } }
+13:15:30.0089930: CalcInput(Pair { Type = DeltaOAS, Value = 0.11 }, [CalcResult { Pair = Pair { Type = Price, Value = 102 } },CalcResult { Pair = Pair { Type = OAS, Value = 0.1 } }])
+13:15:30.0091140: CalcResult { Pair = Pair { Type = DeltaOAS, Value = 0.11 } }
+13:15:30.0091670: CalcResult { Pair = Pair { Type = OAS, Value = 0.21000000000000002 } }
+13:15:33.5147680: CalcResult { Pair = Pair { Type = Price, Value = 100.21 } }
+13:15:33.5149200: CalcResult { Pair = Pair { Type = DeltaPrice, Value = -1.7900000000000063 } }
+13:15:33.5150740: CalcInput(Pair { Type = Price, Value = 124.11 }, [CalcResult { Pair = Pair { Type = Price, Value = 102 } },CalcResult { Pair = Pair { Type = OAS, Value = 0.1 } }])
+13:15:33.5151410: CalcResult { Pair = Pair { Type = Price, Value = 124.11 } }
+13:15:33.5151660: CalcResult { Pair = Pair { Type = DeltaPrice, Value = 22.11 } }
+13:15:37.0208290: CalcResult { Pair = Pair { Type = OAS, Value = 24.11 } }
+13:15:37.0209490: CalcResult { Pair = Pair { Type = DeltaOAS, Value = 24.009999999999998 } }
+Run 3
+13:15:37.0209990: CalcInput(Pair { Type = Price, Value = 100 }, [])
+13:15:37.0210250: CalcResult { Pair = Pair { Type = Price, Value = 100 } }
+13:15:40.5266630: CalcResult { Pair = Pair { Type = OAS, Value = 0 } }
+13:15:40.5267740: CalcInput(Pair { Type = OAS, Value = 1.11 }, [CalcResult { Pair = Pair { Type = Price, Value = 102 } },CalcResult { Pair = Pair { Type = OAS, Value = 0.1 } }])
+13:15:40.5268130: CalcResult { Pair = Pair { Type = OAS, Value = 1.11 } }
+13:15:40.5268350: CalcResult { Pair = Pair { Type = DeltaOAS, Value = 1.01 } }
+13:15:44.0273400: CalcResult { Pair = Pair { Type = Price, Value = 101.11 } }
+13:15:44.0275530: CalcResult { Pair = Pair { Type = DeltaPrice, Value = -0.8900000000000006 } }
+13:15:44.0275860: CalcInput(Pair { Type = DeltaOAS, Value = 0.11 }, [CalcResult { Pair = Pair { Type = Price, Value = 102 } },CalcResult { Pair = Pair { Type = OAS, Value = 0.1 } }])
+13:15:44.0276130: CalcResult { Pair = Pair { Type = DeltaOAS, Value = 0.11 } }
+13:15:44.0276280: CalcResult { Pair = Pair { Type = OAS, Value = 0.21000000000000002 } }
+13:15:47.5332160: CalcResult { Pair = Pair { Type = Price, Value = 100.21 } }
+13:15:47.5333690: CalcResult { Pair = Pair { Type = DeltaPrice, Value = -1.7900000000000063 } }
+13:15:47.5334150: CalcInput(Pair { Type = Price, Value = 124.11 }, [CalcResult { Pair = Pair { Type = Price, Value = 102 } },CalcResult { Pair = Pair { Type = OAS, Value = 0.1 } }])
+13:15:47.5334390: CalcResult { Pair = Pair { Type = Price, Value = 124.11 } }
+13:15:47.5334960: CalcResult { Pair = Pair { Type = DeltaPrice, Value = 22.11 } }
+13:15:51.0349070: CalcResult { Pair = Pair { Type = OAS, Value = 24.11 } }
+13:15:51.0349690: CalcResult { Pair = Pair { Type = DeltaOAS, Value = 24.009999999999998 } }
